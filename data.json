@@ -19,5 +19,20 @@
   "institute":"Sir C.R.R High School",
   "data":["2010-2011","72%"]
 }
+],
+
+"skills":[
+  {
+    "title":"programming Language",
+    "set":["Java","c","c++"]
+  },
+  {
+    "title":"web technology",
+    "set":["HTML","css","javascript"]
+},
+{
+    "title":"Data base",
+    "set":["oracle"]
+  }
 ]
 }

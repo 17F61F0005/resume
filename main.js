@@ -14,6 +14,7 @@ fetchedData.then(data=>{
   console.log(data);
   career(data.career);
   education(data.education);
+  skills(data.skills);
 })
 
 var child1=document.querySelector("#child1");
@@ -45,4 +46,25 @@ function education(edu){
     tr1+="<tr> <td>"+i+1+" </td> <td>"+edu[i].degree+"</td> <td>"+edu[i].institute+"</td><td>"+edu[i].data+"</td> </tr>";
 }
 table.innerHTML=tr+tr1;
+}
+//skills
+function skills(skill){
+  var heading=document.createElement("h2");
+  heading.textContent="Technical skills";
+  child1.appendChild(heading);
+  var hLine=document.createElement("hr");
+  heading.appendChild(hLine);
+  for(var i=0;i<skill.length;i++){
+  var title=document.createElement("h4");
+  title.textContent=skill[i].title;
+  child1.appendChild(title);
+  var list=document.createElement("ul");
+  child1.appendChild(list);
+  console.log(skill[i].set.length);
+  for (var j=0;j<skill[i].set.length;j++){
+    var listItem=document.createElement("li");
+  listItem.textContent=skill[i].set[j];
+list.appendChild(listItem);
+  }
+}
 }

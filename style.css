@@ -1,3 +1,6 @@
+tr:nth-child(even){
+  background-color:#B1ECF5;
+}
 .parent{
   display:flex;
   flex-direction: row;
