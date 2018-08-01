@@ -1,4 +1,23 @@
 {
   "career":{
     "info":"Aspire to become a successful person and keenly interested in utilizing my analytical and professional skills for value creationin the line with the growth of the organization."
-  }
+
+},
+"education":[
+  {
+    "degree":"mca (master of computer application)",
+    "institute":"siddartha college of engineering",
+    "data":["2017-2020","81%" ]
+},
+{
+    "degree":"Intermediate(M.P.C)",
+    "institute":"naranya junior college",
+    "data":["2011-2012","81%"]
+},
+{
+  "degree":"S.S.C",
+  "institute":"Sir C.R.R High School",
+  "data":["2010-2011","72%"]
+}
+]
+}
