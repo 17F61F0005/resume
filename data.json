@@ -5,13 +5,19 @@
 },
 "education":[
   {
-    "degree":"mca (master of computer application)",
+    "degree":"MCA(Master Of Computer Application)",
     "institute":"siddartha college of engineering",
     "data":["2017-2020","81%" ]
 },
 {
+  "degree":"BSC",
+  "institute":"Vignana Sudha degree college",
+  "data":["2013-2016","78%" ]
+},
+
+{
     "degree":"Intermediate(M.P.C)",
-    "institute":"naranya junior college",
+    "institute":"Naranya junior college",
     "data":["2011-2012","81%"]
 },
 {
@@ -34,5 +40,14 @@
     "title":"Data base",
     "set":["oracle"]
   }
+],
+
+"achivements":[
+  {
+  "achivedData":" Got 1st prize in kho-kho"
+},
+{
+  "achivedData":"Got 2nd prize in rongali"
+}
 ]
 }
